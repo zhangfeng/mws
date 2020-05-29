@@ -1,0 +1,9 @@
+#!/usr/bin/env python3
+
+import cli
+
+banner = """
+Bienvenue dans une nouvelle manière de concevoir la musique
+"""
+
+cli.Cli().cmdloop(banner)
